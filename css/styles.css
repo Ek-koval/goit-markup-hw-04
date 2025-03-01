@@ -476,10 +476,14 @@ img {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 100px 0;
-    text-align: left;
-    color: #fff;
+    padding-top: 100px;
 }
+
+.footer-block {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -492,17 +496,21 @@ img {
     display: inline-block
 }
 
-.text-footer {
-    font-weight: 400;
+.social-footer {
+    margin-right: 120px;
+}
+.footer-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 
-.footer-block {
+.footer-list {
     display: flex;
-    align-items: baseline;
+    gap: 16px;
 }
 
 .fot-icon:hover,
@@ -510,10 +518,3 @@ img {
     background-color: #31d0aa;
 }
 
-.logo-style-f {
-    color: #f4f4fd;
-}
-
-.logocontainer {
-    margin-right: 120px;
-}
