@@ -74,6 +74,7 @@ img {
     color: #4d5ae5;
     padding: 24px 0;
     margin-right: 76px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo .logo-part {
@@ -111,6 +112,7 @@ img {
     border-radius: 2px;
 
     background-color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -126,6 +128,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-list {
@@ -277,6 +281,18 @@ img {
     background-image: url(../images/astronaut-1.svg)
 }
 
+.features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+
+}
+
 .feature-name {
     font-weight: 500;
     font-size: 20px;
@@ -324,6 +340,9 @@ img {
     text-align: center;
     width: 264px;
     flex-direction: column;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-name {
@@ -352,7 +371,7 @@ img {
     display: flex;
     justify-content: center; 
     padding-bottom: 32px;
-    gap: 24px
+    gap: 24px;
 }
 
 .social-item:not(:last-child) {
@@ -365,13 +384,15 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #4d5ae5;
-    border-radius: 55%;
+    border-radius: 50%;
     height: 40px;
     width: 40px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 24px;
 }
 
 .icon {
-    fill: white;
+    fill:#f4f4fd;
     height: 16px;
     width: 16px;
 }
@@ -469,7 +490,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -500,6 +520,7 @@ img {
 .social-footer {
     margin-right: 120px;
 }
+
 .footer-text {
     font-weight: 500;
     font-size: 16px;
@@ -519,3 +540,6 @@ img {
     background-color: #31d0aa;
 }
 
+.logocontainer {
+    margin-right: 120px;
+}
