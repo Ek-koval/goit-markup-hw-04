@@ -175,8 +175,6 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 48px;
 }
 
 .hero-name {
@@ -329,6 +327,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .team-info {
@@ -342,7 +341,6 @@ img {
 .social-list {
     display: flex;
     justify-content: center; 
-    padding-bottom: 32px;
     gap: 24px;
 }
 
@@ -365,8 +363,6 @@ img {
 
 .icon {
     fill:#f4f4fd;
-    height: 16px;
-    width: 16px;
 }
 
 .social-link:hover {
@@ -432,7 +428,6 @@ background-color: #404bbf;}
     align-items: center;
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
-    text-align: center;
     border-top: none;
     }
 
@@ -456,7 +451,6 @@ background-color: #404bbf;}
     background-color: #4d5ae5;
     color: #f4f4fd;
     padding: 40px 32px;
-    opacity: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -495,7 +489,7 @@ background-color: #404bbf;}
 }
 
 .social-footer {
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .social-text {
@@ -513,6 +507,7 @@ background-color: #404bbf;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .footer-list {
