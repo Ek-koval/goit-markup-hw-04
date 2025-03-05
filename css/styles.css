@@ -344,10 +344,6 @@ img {
     gap: 24px;
 }
 
-.social-item:not(:last-child) {
-    /*display: flex;*/
-    margin-right: 24px;
-}
 
 .social-link {
     display: flex;
@@ -425,7 +421,6 @@ background-color: #404bbf;}
 .portfolio-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
