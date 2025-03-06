@@ -483,9 +483,7 @@ background-color: #404bbf;}
     display: inline-block
 }
 
-.social-footer {
-    margin-right: 80px;
-}
+
 
 .social-text {
     font-weight: 500;
@@ -503,6 +501,7 @@ background-color: #404bbf;}
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    padding-bottom: 100px;
 }
 
 .footer-list {
